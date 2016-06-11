@@ -1,0 +1,58 @@
+.monthly-index.tips
+{
+	.monthly-challenge
+	{
+		heigth:100%; 
+	}
+}
+.monthly-index
+{
+	width:100%; 
+	padding-top:48px;
+	display:flex; 
+	flex-direction:column; 
+	& > h1 
+	{
+		font-size:48px;
+		color:$orange;
+		padding-left:24px;
+		padding-bottom:24px;
+	}
+	.monthly-challenge-info
+	{
+		padding:24px;
+		width:100%; 
+		display:flex; 
+		flex-direction:column; 
+		justify-content:flex-start; 
+		align-items:flex-start; 
+		a
+		{
+			color:$orange;
+			font-weight:500;
+			text-transform:uppercase; 
+			width:100%; 
+			text-align:right;
+		}
+	}
+	h2 
+	{
+		color:$healthy-green;
+		text-transform:uppercase; 
+		font-size:36px;
+		padding-top:24px;
+	}
+	p, iframe, ul, ol
+	{
+		padding-top:24px;
+		max-width:420px;
+		line-height:125%;
+		text-align:justify;
+		text-align-last:left;
+	}
+	ol, li 
+	{
+		padding-left:21px;
+	}
+
+}

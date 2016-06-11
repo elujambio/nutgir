@@ -1,0 +1,16 @@
+/*
+Theme Name: Start WordPress
+Author: Pablo Eugenio Lujambio
+Mail: eugeniolujambio@gmail.com
+Work mail: eugenio@nuva.rocks
+Description: Bootstrap Blog template converted to WordPress
+Version: 0.0.1
+Tags: bootstrap
+*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: lobster; }
+
+/*# sourceMappingURL=style.css.map */

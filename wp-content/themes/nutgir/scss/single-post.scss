@@ -1,0 +1,259 @@
+@import 'globals';
+.single-post
+{
+	&>h1
+	{
+		padding:24px;
+		color:$orange;
+	}
+	.post
+	{
+		width:100%; 
+		display:flex;
+		flex-direction:column; 
+		justify-content:flex-start; 
+		align-items:flex-start; 
+		margin-top:24px;
+		.post-image
+		{
+			height:315px; 
+			width:851px;
+			overflow:hidden; 
+			flex-shrink:0;
+			position:relative;
+		}
+		.post-structure
+		{
+			display:flex;
+			flex-direction:column; 
+			justify-content:flex-start; 
+			align-items:flex-start; 
+			margin-left:24px;
+			.post-title
+			{
+				color:$healthy-green;
+				font-size:48px; 
+				padding-top:36px;
+				text-transform:uppercase;
+			}
+			.post-meta
+			{
+				padding-top:24px; 
+				padding-bottom:18px;
+			}
+			.post-text
+			{
+				font-size: 16px; 
+				line-height:175%;
+				width:calc(100% - 36px);
+				text-align:justify;
+				text-align-last:left;
+				// img:first-child
+				img
+				{
+					max-width:100%; 
+					width:auto;
+					height:auto;
+				}
+				iframe
+				{
+					width:100%; 
+					height:420px;
+					clear:both;
+					margin-top:24px; 
+					margin-bottom:24px;
+				}
+				.left
+				{
+					float:left;
+					padding: 21px 21px 21px 0;
+				}
+				// img:nth-child(2n)
+				.right
+				{
+					float:right;
+					padding: 21px 0 21px 21px;
+				}
+				ul
+				{
+					display: table;
+					margin-left: 0;
+					padding-left: 0;
+					list-style: none;
+					li
+					{
+						display: table-row;
+						&:before
+						{
+							content: "\2022";
+							display: table-cell;
+							padding-right: 0.4em;
+						}
+					}
+				}
+				ol
+				{	
+					display: table;
+					margin-left: 0;
+					padding-left: 0;
+					list-style: none;
+					li
+					{
+						display: table-row;
+						counter-increment: table-ol;
+						&:before
+						{	
+							content: counter(table-ol) ".";
+							display: table-cell;
+							padding-right: 0.4em;
+							text-align: right;
+						}
+					}
+				}
+
+
+
+
+				// img:nth-child(2n+1)
+				// {
+					// float:left;
+					// padding: 21px 21px 0 0;
+				// }
+			}
+		}
+	}
+}
+@media screen and (max-width:1220px)
+{
+.single-post
+{
+	&>h1
+	{
+		padding:24px;
+		color:$orange;
+		max-width:100%; 
+		box-sizing:border-box;
+	}
+	.post
+	{
+		width:100%; 
+		display:flex;
+		flex-direction:column; 
+		justify-content:flex-start; 
+		align-items:flex-start; 
+		margin-top:24px;
+		box-sizing:border-box;
+		.post-image
+		{
+			height:315px; 
+			width:100%;
+			overflow:hidden; 
+			flex-shrink:0;
+			position:relative;
+		}
+
+
+
+
+
+		.post-structure
+		{
+			display:flex;
+			flex-direction:column; 
+			justify-content:flex-start; 
+			align-items:flex-start; 
+			margin-left:24px;
+			*
+			{
+				max-width:100%;
+			}
+			.post-title
+			{
+				color:$healthy-green;
+				font-size:36px; 
+				padding-top:36px;
+				text-transform:uppercase;
+			}
+			.post-meta
+			{
+				padding-top:24px; 
+				padding-bottom:18px;
+			}
+			.post-text
+			{
+				font-size: 16px; 
+				line-height:175%;
+				width:calc(100% - 36px);
+				text-align:justify;
+				text-align-last:left;
+				// img:first-child
+				img
+				{
+					max-width:100%; 
+					width:auto;
+					height:auto;
+				}
+				iframe
+				{
+					width:100%; 
+					height:420px;
+					clear:both;
+					margin-top:24px; 
+					margin-bottom:24px;
+				}
+				.left
+				{
+					float:left;
+					padding: 21px 21px 21px 0;
+				}
+				// img:nth-child(2n)
+				.right
+				{
+					float:right;
+					padding: 21px 0 21px 21px;
+				}
+				ul
+				{
+					display: table;
+					margin-left: 0;
+					padding-left: 0;
+					list-style: none;
+					li
+					{
+						display: table-row;
+						&:before
+						{
+							content: "\2022";
+							display: table-cell;
+							padding-right: 0.4em;
+						}
+					}
+				}
+				ol
+				{	
+					display: table;
+					margin-left: 0;
+					padding-left: 0;
+					list-style: none;
+					li
+					{
+						display: table-row;
+						counter-increment: table-ol;
+						&:before
+						{	
+							content: counter(table-ol) ".";
+							display: table-cell;
+							padding-right: 0.4em;
+							text-align: right;
+						}
+					}
+				}
+			}
+
+
+
+
+
+	}
+	}
+}}
