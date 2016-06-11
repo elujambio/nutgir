@@ -1,0 +1,33 @@
+.blog-footer
+{
+	background:rgb(66,66,66);
+	width:100%; 
+	height:auto;
+	display:flex; 
+	flex-direction:column; 
+	flex-wrap:wrap; 
+	flex-shrink:0;
+	padding-bottom:48px;
+	.footer-menu
+	{
+
+		display:flex; 
+		flex-direction:column;
+		justify-content:flex-start;
+		align-items:flex-start;
+		padding:24px; 
+		flex-wrap:wrap; 
+		flex-shrink:0;
+		a
+		{
+			color:rgba(155,155,155,1);
+			font-family: 'Muller';
+			font-weight:300; 
+			margin-top:12px;
+		}
+		label 
+		{
+			margin-top:12px;
+		}
+	}
+}

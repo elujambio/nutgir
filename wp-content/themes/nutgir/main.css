@@ -905,5 +905,29 @@ body {
       font-size: 36px; }
     .about-me .bio label {
       padding-top: 24px; } }
+.blog-footer {
+  background: #424242;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  flex-shrink: 0;
+  padding-bottom: 48px; }
+  .blog-footer .footer-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 24px;
+    flex-wrap: wrap;
+    flex-shrink: 0; }
+    .blog-footer .footer-menu a {
+      color: #9b9b9b;
+      font-family: 'Muller';
+      font-weight: 300;
+      margin-top: 12px; }
+    .blog-footer .footer-menu label {
+      margin-top: 12px; }
 
 /*# sourceMappingURL=main.css.map */
