@@ -5276,3 +5276,13 @@ function mysql_to_rfc3339( $date_string ) {
 	// Strip timezone information
 	return preg_replace( '/(?:Z|[+-]\d{2}(?::\d{2})?)$/', '', $formatted );
 }
+function pagination_nav() {
+    global $wp_query;
+ 
+    if ( $wp_query->max_num_pages > 1 ) { ?>
+        <nav class="pagination" role="navigation">
+            <div class="nav-previous"><?php next_posts_link( '&larr; Anteriores' ); ?></div>
+            <div class="nav-next"><?php previous_posts_link( 'Más recientes &rarr;' ); ?></div>
+        </nav>
+<?php }
+}

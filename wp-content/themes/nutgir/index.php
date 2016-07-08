@@ -63,7 +63,7 @@
 				      method="POST">
 					<div class="overlay"></div>
 					<div><h2>Contáctame</h2>
-						<p>Mis datos de contacto son. Puedes agendar una cita conmigo en el correo  nutgir@outlook.com, al número ####-####-#### o puedes dejarme tu nombre y correo, y yo me pondré en contacto.</p></div>
+						<p>Mis datos de contacto son. Puedes agendar una cita conmigo en el correo  nutgir@outlook.com, al número 55 3957 3256 o puedes dejarme tu nombre y correo, y yo me pondré en contacto.</p></div>
 				    <input type="text" name="name" placeholder="Nombre" required>
 				    <input type="email" name="_replyto" placeholder="Correo" required>
 				    <input type="submit" value="ENVIAR">

@@ -102,7 +102,6 @@ require_once(ABSPATH . 'wp-settings.php');
 define('WP_TEMP_DIR', 'C:/xampp2/apps/wordpress/tmp');
 
 
-
 //  Disable pingback.ping xmlrpc method to prevent Wordpress from participating in DDoS attacks
 //  More info at: https://wiki.bitnami.com/Applications/Bitnami_Wordpress#XMLRPC_and_Pingback
 

@@ -41,6 +41,7 @@
       <a href="<?php echo esc_url(get_permalink( get_page_by_title( 'Recetas' )  ) ); ?>">Recetas</a>
       <a href="<?php echo esc_url(get_permalink( get_page_by_title( 'Tips' )  ) ); ?>">Tips</a>
       <a href="<?php echo esc_url(get_permalink( get_page_by_title( 'Programas' )  ) ); ?>">Programas</a>
+      <a href="<?php echo esc_url(get_permalink( get_page_by_title( 'Ebooks' )  ) ); ?>">Ebooks</a>
     </div>
   </div>
   <div class="container">
